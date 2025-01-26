@@ -136,6 +136,13 @@ public class Game {
 		Game other = (Game) obj;
 		return Objects.equals(id, other.id);
 	}
+
+	@Override
+	public String toString() {
+		return "Game [id=" + id + ", title=" + title + ", year=" + year + ", genre=" + genre + ", platforms="
+				+ platforms + ", Score=" + Score + ", imgUrl=" + imgUrl + ", shortDescription=" + shortDescription
+				+ ", longDescription=" + longDescription + "]";
+	}
 	
 	
 	
