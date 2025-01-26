@@ -11,6 +11,7 @@ import com.eugenio.dslist.dto.GameMinDTO;
 import com.eugenio.dslist.entities.Game;
 import com.eugenio.dslist.repositories.GameRepository;
 
+
 @Service
 public class GameService {
 
